@@ -18,7 +18,7 @@ class String
     array = self.split(/[.!?]/)
     count = 0
     array.each do |sentence|
-      if array.length > 1
+      if array.length > 2
       count +=1
     end
   end
